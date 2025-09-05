@@ -45,7 +45,7 @@
 }
 
 .footer{
-    transform: translateY(-80px);
+  margin-top: -80px;
 }
 
 .partikel{
@@ -115,6 +115,50 @@
     width: 100px;
     height: 3px;
     background-color: red;
-    bottom: -10px;
-    left: 600px;
+    bottom: -5px;
+    left: 595px;
+}
+
+
+/* login form */
+
+.loginForm button{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid grey;
+}
+
+.loginForm button i{
+    margin-right: 10px;
+}
+
+.loginForm .forms input{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid grey;
+    
+}
+
+.loginbtn{
+    background-color: yellow !important;
+}
+
+
+
+
+/* styling body */
+
+body.active{
+    background-color: black;
+}
+
+body.active h1,
+body.active .featuretitle{
+    color: white;
 }
